@@ -4,15 +4,15 @@
 This specification defines an abstraction data structure that can be used for flexible/variant key-value pairs in a smart contract. 
 
 ## Use Cases
-- Easier handling of variant data within a smart contract (devX)
-- Greatly improved query and access capabilities
-- Facilitates consensus creation/evolution between humans on human-readable documents, such as real-world contracts
+- Facilitates creation/evolution of consensus among humans on human-readable and machine-interpreted documents, such as real-world contracts
 - On-chain enforcement of business rules contained in documents
+- Easier handling of variant data within a smart contract, particularly change management (devX)
+- Greatly improved query and access capabilities
 
 ## Features
 - [Content addressing](https://docs.ipfs.io/concepts/how-ipfs-works/#content-addressing)
 - Akin to IPFS log or Git, documents are read-only and changes are appended as a new 'document' (node in the graph)
-- Document content, not just the hash, is store on chain so that it can be used in smart contracts
+- Document content, not just an anchored hash, is stored on chain so that it can be used in smart contracts
 - (*perhaps implementation specific*) Documents can be certified or 'signed' by other accounts
 - Supports key eosio data types: ```name, int64, asset, time_point, string, and checksum256```
 - Data elements (see below) support both optional labeling and sequencing
