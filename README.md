@@ -8,6 +8,7 @@ This specification defines an abstraction data structure that can be used for fl
 - On-chain enforcement of business rules contained in documents
 - Easier handling of variant data within a smart contract, particularly change management (devX)
 - Greatly improved query and access capabilities
+- Strong modeling for [graph data structures](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
 
 ## Features
 - [Content addressing](https://docs.ipfs.io/concepts/how-ipfs-works/#content-addressing)
