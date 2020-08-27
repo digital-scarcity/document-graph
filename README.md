@@ -3,6 +3,8 @@
 ## Simple Summary
 This specification defines an abstraction data structure that can be used for flexible/variant key-value pairs in a smart contract. 
 
+[Go to Implementation](https://github.com/hypha-dao/document)
+
 ## Use Cases
 - Facilitates creation/evolution of consensus among humans on human-readable and machine-interpreted documents, such as real-world contracts
 - On-chain enforcement of business rules contained in documents
